@@ -3,7 +3,7 @@
     "builder": "nixpacks"
   },
   "deploy": {
-    "startCommand": "python3 chunked_server.py",
+    "startCommand": "python chunked_server.py",
     "restartPolicyType": "ON_FAILURE"
   }
 }
